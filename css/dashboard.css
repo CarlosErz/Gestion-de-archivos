@@ -1,0 +1,174 @@
+body {
+	background: #f1f1f1f1;
+}
+
+.barra {
+	background: linear-gradient(to right, #06a2c9, #67bbff);
+	padding-top: 12px;
+	padding-bottom: 12px;
+	margin: 0;
+	color: white;
+}
+
+.perfil {
+	position: absolute;
+	top: 12px;
+	right: 0;
+	font-size: 30px;
+	color: #fff;
+}
+
+.flecha {
+	font-size: 12px;
+	padding-left: 3px;
+}
+
+.menu-salida {
+	position: absolute;
+	z-index: 1000;
+	right: 0;
+	min-width: 10px;
+	padding: .5rem 0;
+	width: 10%;
+	margin: 2px;
+	font-size: 1rem;
+	text-align: left;
+	list-style: none;
+	background-color: rgb(34, 34, 34);
+	background-clip: padding-box;
+	border: 1px solid rgba(0, 0, 0, .15);
+	border-radius: .25rem;
+	display: none;
+}
+
+.perfil:hover {
+	color: rgb(218, 218, 218);
+}
+
+.cerrar {
+	color: #fff;
+}
+
+.cerrar:hover {
+	background-color: rgb(34, 34, 34);
+	color: red;
+}
+
+.cerrar:focus {
+	background-color: rgb(34, 34, 34);
+	color: rgb(109, 4, 4);
+}
+
+/*Barra lateral*/
+
+.barra-lateral {
+	background-color: rgb(34, 34, 34);
+	color: #fff;
+	min-width: 250px;
+	min-height: 100vh;
+	padding: 0;
+}
+
+.barra-lateral a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/*Estilos Menu*/
+
+.barra-lateral .menu a {
+	display: block;
+	padding: 20px;
+	border-bottom: 1px rgba(255, 255, 255, 0.527);
+	font-weight: 500;
+	border-bottom: 1px solid rgba(255, 255, 255 ,.1);
+}
+
+.barra-lateral .menu a:hover {
+	background-color: #06a2c9;
+}
+
+.active {
+	background-color: #06a2c9, ;
+}
+
+.barra-lateral .menu {
+	border-top: 5px #fff solid;
+	
+}
+
+.barra-lateral .menu a i {
+	margin-right: 20px;
+}
+
+/*MAIN*/
+
+.main {
+	padding-top: 40px;
+}
+
+.main .columna {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+/*responsive*/
+
+@media screen and (max-width:1300px) {
+	.barra-lateral {
+		min-width: auto;
+	}
+	.barra-lateral .menu a span {
+		display: none;
+	}
+	.barra-lateral .menu a i{
+		min-width: auto;
+		margin: 0;
+	}
+	.barra{
+		min-width: auto;
+	}
+	.menu-salida{
+		width: 80px;
+		right: 0;
+		margin: 0;
+	}
+}
+@media screen and (max-width:575px) {
+	.barra-lateral{
+		height: auto;
+
+	}
+	.barra-lateral .menu a {
+		display: inline-block;
+		border-bottom: none;
+
+	}
+	
+       .barra-lateral{
+	      width: 100%;
+	      min-height: auto;
+       }
+       body{
+	       font-size: 16px;
+	       overflow: visible;
+       }
+}
+
+/*CONTENIDO*/
+#btn-nuevo{
+	position: relative;
+	color:#fff;
+	padding: 15px 32px;
+	text-align: center;
+	display: inline-block;
+	margin: 4px 2px;
+	font-size: 12px;
+	font-weight: 600;
+	background-color: rgb(39, 165, 39);
+	
+}
+.btn-successs{
+	padding-left: 0;
+	
+}
