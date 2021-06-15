@@ -13,7 +13,7 @@ if ($filas > 0) {
 } else {
 ?>
 	<?php
-	include("index.php");
+	include("index.html");
 
 	?>
 	<h1 class="bad">¡ERROR EN LA AUTENTICACION!</h1>
