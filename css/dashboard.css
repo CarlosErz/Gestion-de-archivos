@@ -86,6 +86,7 @@ body {
 
 .barra-lateral .menu a:hover {
 	background-color: #06a2c9;
+	border-bottom: 1px rgba(0, 174, 255, 0.527);
 }
 
 .active {
